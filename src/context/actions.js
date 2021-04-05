@@ -1,0 +1,10 @@
+export const BACKGROUND_CHANGE_COLOR = "background/change color";
+export const TEXT_CHANGE_CONTENT = "text/change content";
+export const TEXT_CHANGE_FONT_SIZE = "text/change font size";
+export const TEXT_CHANGE_COLOR = "text/change color";
+export const TEXT_SET_OFFSET = "text/set offset from top";
+export const IMAGE_CHANGE = "image/change image";
+export const IMAGE_SET_OFFSET = "image/set offset from top";
+export const LINK_CHANGE = "link/change link";
+export const SIZE_CHANGE_WIDTH = "size/change width";
+export const SIZE_CHANGE_HEIGHT = "size/change height";

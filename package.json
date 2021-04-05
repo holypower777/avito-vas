@@ -1,0 +1,26 @@
+{
+  "name": "avito-vas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "parcel --port=3999 src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "copy-to-clipboard": "^3.3.1",
+    "html2canvas-render-offscreen": "^0.0.3",
+    "react": "^17.0.2",
+    "react-colorful": "^5.1.0",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.3"
+  },
+  "alias": {
+    "#root": "./src",
+    "#shared": "./src/components/shared",
+    "#context": "./src/context"
+  }
+}
